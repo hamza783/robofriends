@@ -8,7 +8,7 @@ const CardList = ({robots}) => {
                 robots.map((robot, index) => {
                     return <Card key={index} id={robot.id} name={robot.name} email={robot.email}/>
                 })
-            }
+            } 
         </Fragment>
     );
 }
